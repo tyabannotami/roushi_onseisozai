@@ -15,7 +15,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-st.title('大熊老師音声素材集')
+st.title('大熊老師音声素材集（試作中）')
 st.subheader('ボタンを押すとその音声が流れます。')
 
 
