@@ -10,13 +10,18 @@ st.markdown("""
         color: #333;
         font-family: 'Arial', sans-serif;
     }
-
+        .notranslate {
+        translate: no;
+    }
     </style>
     """, unsafe_allow_html=True)
 
 
 st.title('大熊老師音声素材集（試作中）')
-st.subheader('ボタンを押すとその音声が流れます。')
+# 言語タグを使用してヘッダーを設定
+st.markdown("""
+    <h3 class="notranslate">ボタンを押すとその音声が流れます。</h3>
+    """, unsafe_allow_html=True)
 
 
 bonabu = st.button('ボナヴ～!')
