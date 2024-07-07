@@ -3,11 +3,23 @@ import streamlit.components.v1 as stc
 import base64
 import time
 
+st.markdown("""
+    <style>
+    .main {
+        background-color: #f0f2f6;
+        color: #333;
+        font-family: 'Arial', sans-serif;
+    }
+
+    </style>
+    """, unsafe_allow_html=True)
+
+
 st.title('大熊老師音声素材集')
 st.subheader('ボタンを押すとその音声が流れます。')
 
 
-bonabu = st.button('ボナブ～!')
+bonabu = st.button('ボナヴ～!')
 no_say = st.button('〇〇とか言うな!')
 yummy = st.button('yummy')
 ii = st.button('いぃ～？')
