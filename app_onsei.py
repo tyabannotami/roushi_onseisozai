@@ -33,8 +33,8 @@ kora =st.button('コラッ!')
 tixekera =st.button('チェケラ!')
 usodaro =st.button('嘘だろ')
 bonayoro =st.button('ぼなよろ')
-
-
+bonaoya =st.button('ぼなおや')
+hannya =st.button('般若心経')
 
 
 def talk(path):
@@ -95,6 +95,15 @@ if bonayoro:
     audio_path1 = 'bonayoro.mp3' #入力する音声ファイル
     talk(audio_path1)
 
+if bonaoya:
+
+    audio_path1 = 'bonaoya.mp3' #入力する音声ファイル
+    talk(audio_path1)
+
+if hannya:
+
+    audio_path1 = 'hannya.mp3' #入力する音声ファイル
+    talk(audio_path1)
 
 
 
