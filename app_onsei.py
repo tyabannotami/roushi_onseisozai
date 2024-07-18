@@ -29,7 +29,9 @@ no_say = st.button('〇〇とか言うな!')
 yummy = st.button('yummy')
 ii = st.button('いぃ～？')
 iikagen =st.button('いいかげんにしろ!')
-kora =st.button('コラッ!')
+kora1 =st.button('コラ!')
+kora2 =st.button('コラ～!')
+kora3 =st.button('コラッ!')
 tixekera =st.button('チェケラ!')
 usodaro =st.button('嘘だろ')
 bonayoro =st.button('ぼなよろ')
@@ -78,9 +80,17 @@ if iikagen:
 
     audio_path1 = 'iikagen.mp3' #入力する音声ファイル
     talk(audio_path1)
-if kora:
+if kora1:
 
-    audio_path1 = 'kora.mp3' #入力する音声ファイル
+    audio_path1 = 'kora1.mp3' #入力する音声ファイル
+    talk(audio_path1)
+if kora2:
+
+    audio_path1 = 'kora2.mp3' #入力する音声ファイル
+    talk(audio_path1)
+if kora3:
+
+    audio_path1 = 'kora3.mp3' #入力する音声ファイル
     talk(audio_path1)
 if tixekera:
 
