@@ -27,6 +27,7 @@ st.markdown("""
 bonabu = st.button('ボナヴ～!')
 no_say = st.button('〇〇とか言うな!')
 yummy = st.button('yummy')
+hoo = st.button('hoo!')
 ii = st.button('いぃ～？')
 iikagen =st.button('いいかげんにしろ!')
 kora1 =st.button('コラ!')
@@ -71,6 +72,10 @@ if no_say:
 if yummy:
 
     audio_path1 = 'yummy.mp3' #入力する音声ファイル
+    talk(audio_path1)
+if hoo:
+
+    audio_path1 = 'hoo.mp3' #入力する音声ファイル
     talk(audio_path1)
 if ii:
 
