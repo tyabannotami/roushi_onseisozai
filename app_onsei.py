@@ -37,6 +37,7 @@ tixekera =st.button('チェケラ!')
 usodaro =st.button('嘘だろ')
 bonayoro =st.button('ぼなよろ')
 bonaoya =st.button('ぼなおや')
+kyarason = st.button('キャラソン')
 hannya =st.button('般若心経')
 
 
@@ -113,6 +114,11 @@ if bonayoro:
 if bonaoya:
 
     audio_path1 = 'bonaoya.mp3' #入力する音声ファイル
+    talk(audio_path1)
+
+if kyarason:
+
+    audio_path1 = 'kyarason.mp3' #入力する音声ファイル
     talk(audio_path1)
 
 if hannya:
