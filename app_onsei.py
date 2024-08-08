@@ -28,6 +28,7 @@ bonabu = st.button('ボナヴ～!')
 no_say = st.button('〇〇とか言うな!')
 yummy = st.button('yummy')
 hoo = st.button('hoo!')
+semi = st.button('ずっきーなるなる')
 ii = st.button('いぃ～？')
 iikagen =st.button('いいかげんにしろ!')
 kora1 =st.button('コラ!')
@@ -77,6 +78,10 @@ if yummy:
 if hoo:
 
     audio_path1 = 'hoo.mp3' #入力する音声ファイル
+    talk(audio_path1)
+if semi:
+
+    audio_path1 = 'semi.mp3' #入力する音声ファイル
     talk(audio_path1)
 if ii:
 
