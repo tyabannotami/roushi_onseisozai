@@ -26,6 +26,7 @@ st.markdown("""
 
 bonabu = st.button('ボナヴ～!')
 no_say = st.button('〇〇とか言うな!')
+ASMR = st.button('ASMR')
 yummy = st.button('yummy')
 hoo = st.button('hoo!')
 semi = st.button('ずっきーなるなる')
@@ -70,7 +71,12 @@ if no_say:
 
     audio_path1 = 'no_say.mp3' #入力する音声ファイル
     talk(audio_path1)
-    
+
+if ASMR:
+
+    audio_path1 = 'ASMR.mp3' #入力する音声ファイル
+    talk(audio_path1)    
+
 if yummy:
 
     audio_path1 = 'yummy.mp3' #入力する音声ファイル
